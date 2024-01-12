@@ -1,0 +1,936 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 80180,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "396275006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoarthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4079749,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239872002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoarthritis of hip",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46273178,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "712504007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoarthritis of hip due to dysplasia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4079750,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239873007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoarthritis of knee",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44783205,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "699262001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Post traumatic osteoarthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40481943,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "443524000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Secondary osteoarthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] Osteoarthritis",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45567471,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M18.52",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Other unilateral secondary osteoarthritis of first carpometacarpal joint, left hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45586890,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M18.51",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Other unilateral secondary osteoarthritis of first carpometacarpal joint, right hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45538686,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M18.50",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Other unilateral secondary osteoarthritis of first carpometacarpal joint, unspecified hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1570343,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.02",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, elbow",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1570345,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.04",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45533747,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.022",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, left elbow",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45557807,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.042",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, left hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45567472,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.012",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, left shoulder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45572374,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.032",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, left wrist",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45533746,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.021",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, right elbow",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45596495,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.041",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, right hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45591743,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.011",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, right shoulder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45591744,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.031",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, right wrist",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1570342,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.01",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, shoulder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45606131,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.029",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, unspecified elbow",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45533748,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.049",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, unspecified hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45538687,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.019",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, unspecified shoulder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45586891,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.039",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, unspecified wrist",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1570344,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.03",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Primary osteoarthritis, wrist",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1570355,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.22",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, elbow",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1570357,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.24",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45582064,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.242",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, left hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45538688,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.212",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, left shoulder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45533749,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.232",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, left wrist",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45601356,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.221",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, right elbow",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45557809,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.241",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, right hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45582063,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.211",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, right shoulder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45543487,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.231",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, right wrist",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1570354,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.21",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, shoulder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45591745,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.229",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, unspecified elbow",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45553099,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.249",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, unspecified hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45562651,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.219",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, unspecified shoulder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45538689,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.239",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, unspecified wrist",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1570356,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M19.23",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Secondary osteoarthritis, wrist",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45553097,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M18.32",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Unilateral post-traumatic osteoarthritis of first carpometacarpal joint, left hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45538685,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M18.31",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Unilateral post-traumatic osteoarthritis of first carpometacarpal joint, right hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45582059,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M18.30",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Unilateral post-traumatic osteoarthritis of first carpometacarpal joint, unspecified hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45548322,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M18.12",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Unilateral primary osteoarthritis of first carpometacarpal joint, left hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45582057,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M18.11",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Unilateral primary osteoarthritis of first carpometacarpal joint, right hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45533745,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M18.10",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Unilateral primary osteoarthritis of first carpometacarpal joint, unspecified hand",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] osteoarthritis of hands",
+      "id": 1
+    }
+  ],
+  "EndStrategy": null,
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "Title": null,
+  "AdditionalCriteria": null,
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 14,
+              "Coeff": 1
+            },
+            "End": {
+              "Days": null,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 1,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "14 days gap",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 1,
+              "Coeff": 1
+            },
+            "End": {
+              "Days": 13,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 1,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "14 days gap 2",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 1,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": true,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "ConditionStatus": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

@@ -1,0 +1,1982 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1503297,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "6809",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "metformin",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[sooj] metformin",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 201826,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "44054006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Type 2 diabetes mellitus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4193704,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "313436004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Type 2 diabetes mellitus without complication",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] DM2",
+      "id": 1
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 80180,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "396275006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoarthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4079749,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239872002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoarthritis of hip",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46273178,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "712504007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoarthritis of hip due to dysplasia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4079750,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239873007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoarthritis of knee",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44783205,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "699262001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Post traumatic osteoarthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40481943,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "443524000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Secondary osteoarthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] Osteoarthritis",
+      "id": 2
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4098611,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "190920002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hyperuricemia without signs of inflammatory arthritis and tophaceous disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4035744,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239821006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Secondary inflammatory arthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4253901,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "410795001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Juvenile rheumatoid arthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 80809,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "69896004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Rheumatoid arthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4117687,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "287008006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Rheumatoid arthritis - ankle and/or foot",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4115161,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "287007001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Rheumatoid arthritis - hand joint",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4117686,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "287006005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Rheumatoid arthritis of multiple joints",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4114439,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "201766009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Rheumatoid arthritis of shoulder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4083556,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239792003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Seronegative rheumatoid arthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4035611,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239791005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Seropositive rheumatoid arthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37108714,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "11055151000119108",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Seropositive rheumatoid arthritis of multiple joints",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4079733,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239802003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Juvenile psoriatic arthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4079734,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239803008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Juvenile psoriatic arthritis with psoriasis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42491056,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M07.3",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Other psoriatic arthropathies(L40.5\u2020)",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4083682,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239812005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Psoriatic arthritis with distal interphalangeal joint involvement",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4064048,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "200956002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Psoriatic arthritis with spine involvement",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3019633,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5351-2",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "Sjogrens syndrome-A extractable nuclear Ab [Presence] in Serum by Immunoassay",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Lab Test",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3005307,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5353-8",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "Sjogrens syndrome-B extractable nuclear Ab [Presence] in Serum by Immunoassay",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Lab Test",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4067775,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "203483005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteonecrosis caused by drug",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46271915,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "710186007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteonecrosis due to trauma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4344166,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239920006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Adult onset Still's disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 437082,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "9631008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ankylosing spondylitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4083681,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239805001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Juvenile ankylosing spondylitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37399735,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "295121000119101",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Nephrosis co-occurrent and due to systemic lupus erythematosus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4145240,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "307755009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Renal tubulo-interstitial disorder in systemic lupus erythematosus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 257628,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "55464009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Systemic lupus erythematosus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4344158,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239887007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Systemic lupus erythematosus with organ/system involvement",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] Inflammatory arthritis",
+      "id": 3
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40481840,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "442095009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Arthroplasty",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4078547,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "19063003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Arthroplasty of knee",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2104835,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "27125",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Hemiarthroplasty, hip, partial (eg, femoral stem prosthesis, bipolar arthroplasty)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42361271,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "N0715",
+            "VOCABULARY_ID": "EDI",
+            "CONCEPT_NAME": "Hemiarthroplasty[Hip]",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Proc Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42361318,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "N2710",
+            "VOCABULARY_ID": "EDI",
+            "CONCEPT_NAME": "Hemiarthroplasty[Hip]",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Proc Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4205526,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "308681004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Prosthetic arthroplasty of shoulder",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42364584,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "N2712",
+            "VOCABULARY_ID": "EDI",
+            "CONCEPT_NAME": "Replacement Arthroplasty-Hemiarhtroplasty[Knee]",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Proc Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42363703,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "N2072",
+            "VOCABULARY_ID": "EDI",
+            "CONCEPT_NAME": "Replacement Arthroplasty-Total[Knee]",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Proc Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42360893,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "N2077",
+            "VOCABULARY_ID": "EDI",
+            "CONCEPT_NAME": "Replacement Arthroplasty-Total[Knee]",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Proc Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42539518,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "735193004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Revision of total hip arthroplasty",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4058591,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16117008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Revision of total knee arthroplasty, all components",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42362897,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "N0711",
+            "VOCABULARY_ID": "EDI",
+            "CONCEPT_NAME": "Total Arthroplasty[Hip]",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Proc Hierarchy",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4146310,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "307815000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Arthroplasty of hip without cement",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4301340,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "387648001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Arthroplasty of the ankle",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4162099,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "397956004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Prosthetic arthroplasty of the hip",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40487597,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "449488007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Prosthetic hemiarthroplasty of articulation of bone not using cement",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4077078,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "276178005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Prosthetic uncemented hemiarthroplasty of hip",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] arthroplasty",
+      "id": 4
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 201254,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "46635009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Type 1 diabetes mellitus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443412,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "313435000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Type 1 diabetes mellitus without complication",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] T1DM",
+      "id": 5
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 21600749,
+          "STANDARD_CONCEPT": "C",
+          "CONCEPT_CODE": "A10BB",
+          "VOCABULARY_ID": "ATC",
+          "CONCEPT_NAME": "Sulfonylureas",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Classification",
+          "CONCEPT_CLASS_ID": "ATC 4th",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[sooj] Sulfonyl Urea",
+      "id": 6
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1596977,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "253182",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "insulin, regular, human",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1502826,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "274332",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "nateglinide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1516766,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "73044",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "repaglinide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009055,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700481",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "lobeglitazone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1525215,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "33738",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pioglitazone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1547504,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "84108",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rosiglitazone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45774435,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1551291",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dulaglutide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40170911,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "475968",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "liraglutide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 793143,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1991302",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "semaglutide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1583722,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "60548",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "exenatide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44506754,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1440051",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lixisenatide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44785829,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1488564",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dapagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45774751,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1545653",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "empagliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 793293,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1992672",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ertugliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009020,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700446",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ipragliflozin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43008991,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700417",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "anagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009051,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700477",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "evogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009089,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700515",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gemigliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009070,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700496",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "teneligliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1503297,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6809",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "metformin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] drugs to censor (dm)",
+      "id": 8
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42953705,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4680261",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "glimepiride 1 MG / Metformin 250 MG Oral Tablet [AMARYL M]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42953823,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4680376",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "glimepiride 2 MG / Metformin 500 MG Extended Release Oral Tablet [AMARYL-MEX]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42953763,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4680317",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "glimepiride 2 MG / Metformin 500 MG Oral Tablet [AMARYL M]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45668773,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "e222620f-0dc7-4d2d-8ea1-246189d8af9b",
+            "VOCABULARY_ID": "SPL",
+            "CONCEPT_NAME": "GLUCOVANCE - glyburide and metformin hydrochloride tablet, film coated",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Prescription Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45625084,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "ff281ebd-29c2-4852-a8ab-c4f21abe8b7c",
+            "VOCABULARY_ID": "SPL",
+            "CONCEPT_NAME": "GLUCOVANCE - glyburide and metformin hydrochloride tablet, film coated",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Prescription Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] combinations of metformin and sulfonylurea",
+      "id": 9
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40166035,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "857974",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "saxagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40239216,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1100699",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "linagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43013884,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1368001",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alogliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1580747,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "593411",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sitagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19122137,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "596554",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "vildagliptin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[examen]DPP4i",
+      "id": 10
+    }
+  ],
+  "EndStrategy": {"CustomEra": {
+    "DrugCodesetId": 10,
+    "DaysSupplyOverride": null,
+    "GapDays": 90,
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [
+    {"DrugExposure": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "DrugSourceConcept": null,
+      "CodesetId": 8,
+      "DrugTypeExclude": false,
+      "Quantity": null,
+      "DrugType": null,
+      "ProviderSpecialty": null,
+      "EffectiveDrugDose": null,
+      "Gender": null,
+      "DaysSupply": null,
+      "DoseUnit": null,
+      "VisitType": null,
+      "Refills": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "RouteConcept": null,
+      "StopReason": null,
+      "LotNumber": null,
+      "Age": null
+    }},
+    {"DrugExposure": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "DrugSourceConcept": null,
+      "CodesetId": 6,
+      "DrugTypeExclude": false,
+      "Quantity": null,
+      "DrugType": null,
+      "ProviderSpecialty": null,
+      "EffectiveDrugDose": null,
+      "Gender": null,
+      "DaysSupply": null,
+      "DoseUnit": null,
+      "VisitType": null,
+      "Refills": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "RouteConcept": null,
+      "StopReason": null,
+      "LotNumber": null,
+      "Age": null
+    }}
+  ],
+  "Title": null,
+  "AdditionalCriteria": null,
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 5,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "No history of T1DM",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": null,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 90,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"ConditionOccurrence": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": null,
+              "ConditionTypeExclude": false,
+              "CodesetId": 2,
+              "ProviderSpecialty": null,
+              "Gender": null,
+              "VisitType": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "ConditionType": null,
+              "ConditionSourceConcept": null,
+              "ConditionStatus": null,
+              "StopReason": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 0,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": null,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 90,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"ConditionOccurrence": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": null,
+              "ConditionTypeExclude": false,
+              "CodesetId": 3,
+              "ProviderSpecialty": null,
+              "Gender": null,
+              "VisitType": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "ConditionType": null,
+              "ConditionSourceConcept": null,
+              "ConditionStatus": null,
+              "StopReason": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 0,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": null,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 90,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"ProcedureOccurrence": {
+              "ProcedureType": null,
+              "CorrelatedCriteria": null,
+              "CodesetId": 4,
+              "ProcedureSourceConcept": null,
+              "Quantity": null,
+              "ProviderSpecialty": null,
+              "Gender": null,
+              "ProcedureTypeExclude": false,
+              "VisitType": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "Modifier": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 0,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          }
+        ],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "No history of Outcomes of interests  ",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 90,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DrugEra": {
+            "EraStartDate": null,
+            "CorrelatedCriteria": null,
+            "OccurrenceCount": null,
+            "AgeAtStart": null,
+            "GapDays": null,
+            "CodesetId": 6,
+            "AgeAtEnd": null,
+            "First": null,
+            "Gender": null,
+            "EraLength": {
+              "Op": "gte",
+              "Extent": null,
+              "Value": 90
+            },
+            "EraEndDate": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "No history of sulfonylurea (>90)",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "End": {
+              "Days": 90,
+              "Coeff": 1
+            },
+            "UseIndexEnd": true
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DrugEra": {
+            "EraStartDate": null,
+            "CorrelatedCriteria": null,
+            "OccurrenceCount": null,
+            "AgeAtStart": null,
+            "GapDays": null,
+            "CodesetId": 6,
+            "AgeAtEnd": null,
+            "First": null,
+            "Gender": null,
+            "EraLength": {
+              "Op": "gte",
+              "Extent": null,
+              "Value": 90
+            },
+            "EraEndDate": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "No dups with sulfonylrea ",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"DrugEra": {
+      "EraStartDate": null,
+      "CorrelatedCriteria": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": {
+              "CriteriaList": [{
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {
+                    "Days": 14,
+                    "Coeff": -1
+                  },
+                  "End": {
+                    "Days": 1,
+                    "Coeff": -1
+                  },
+                  "UseIndexEnd": false
+                },
+                "IgnoreObservationPeriod": false,
+                "EndWindow": null,
+                "Criteria": {"ConditionOccurrence": {
+                  "OccurrenceEndDate": null,
+                  "CorrelatedCriteria": null,
+                  "ConditionTypeExclude": false,
+                  "CodesetId": 1,
+                  "ProviderSpecialty": null,
+                  "Gender": null,
+                  "VisitType": null,
+                  "First": null,
+                  "OccurrenceStartDate": null,
+                  "ConditionType": null,
+                  "ConditionSourceConcept": null,
+                  "ConditionStatus": null,
+                  "StopReason": null,
+                  "Age": null
+                }},
+                "Occurrence": {
+                  "Type": 0,
+                  "CountColumn": null,
+                  "IsDistinct": false,
+                  "Count": 0
+                }
+              }],
+              "Type": "ALL",
+              "DemographicCriteriaList": [],
+              "Groups": [],
+              "Count": null
+            },
+            "ConditionTypeExclude": false,
+            "CodesetId": 1,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 2
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "OccurrenceCount": null,
+      "AgeAtStart": {
+        "Op": "gte",
+        "Extent": null,
+        "Value": 40
+      },
+      "GapDays": null,
+      "CodesetId": 10,
+      "AgeAtEnd": null,
+      "First": null,
+      "Gender": null,
+      "EraLength": {
+        "Op": "gte",
+        "Extent": null,
+        "Value": 90
+      },
+      "EraEndDate": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 365
+    }
+  }
+}

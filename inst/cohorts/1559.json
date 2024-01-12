@@ -1,0 +1,715 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 80180,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "396275006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoarthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4079749,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239872002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoarthritis of hip",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46273178,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "712504007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoarthritis of hip due to dysplasia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4079750,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239873007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoarthritis of knee",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44783205,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "699262001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Post traumatic osteoarthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40481943,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "443524000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Secondary osteoarthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] Osteoarthritis",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4098611,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "190920002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hyperuricemia without signs of inflammatory arthritis and tophaceous disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4035744,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239821006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Secondary inflammatory arthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4253901,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "410795001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Juvenile rheumatoid arthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 80809,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "69896004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Rheumatoid arthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4117687,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "287008006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Rheumatoid arthritis - ankle and/or foot",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4115161,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "287007001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Rheumatoid arthritis - hand joint",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4117686,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "287006005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Rheumatoid arthritis of multiple joints",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4114439,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "201766009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Rheumatoid arthritis of shoulder",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4083556,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239792003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Seronegative rheumatoid arthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4035611,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239791005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Seropositive rheumatoid arthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37108714,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "11055151000119108",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Seropositive rheumatoid arthritis of multiple joints",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4079733,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239802003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Juvenile psoriatic arthritis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4079734,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239803008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Juvenile psoriatic arthritis with psoriasis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42491056,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "M07.3",
+            "VOCABULARY_ID": "KCD7",
+            "CONCEPT_NAME": "Other psoriatic arthropathies(L40.5\u2020)",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "KCD7 code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4083682,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239812005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Psoriatic arthritis with distal interphalangeal joint involvement",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4064048,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "200956002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Psoriatic arthritis with spine involvement",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3019633,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5351-2",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "Sjogrens syndrome-A extractable nuclear Ab [Presence] in Serum by Immunoassay",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Lab Test",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3005307,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5353-8",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "Sjogrens syndrome-B extractable nuclear Ab [Presence] in Serum by Immunoassay",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Lab Test",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4067775,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "203483005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteonecrosis caused by drug",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46271915,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "710186007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteonecrosis due to trauma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4344166,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239920006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Adult onset Still's disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 437082,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "9631008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ankylosing spondylitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4083681,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239805001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Juvenile ankylosing spondylitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37399735,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "295121000119101",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Nephrosis co-occurrent and due to systemic lupus erythematosus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4145240,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "307755009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Renal tubulo-interstitial disorder in systemic lupus erythematosus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 257628,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "55464009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Systemic lupus erythematosus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4344158,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "239887007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Systemic lupus erythematosus with organ/system involvement",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[sooj] Inflammatory arthritis",
+      "id": 1
+    }
+  ],
+  "EndStrategy": null,
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "Title": null,
+  "AdditionalCriteria": null,
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 14,
+              "Coeff": 1
+            },
+            "End": {
+              "Days": null,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 1,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "14 days gap",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 1,
+              "Coeff": 1
+            },
+            "End": {
+              "Days": 13,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 1,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "14 days gap 2",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 1,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": true,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "ConditionStatus": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}
