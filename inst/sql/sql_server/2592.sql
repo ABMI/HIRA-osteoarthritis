@@ -849,7 +849,6 @@ FROM #final_cohort CO
 TRUNCATE TABLE #strategy_ends;
 DROP TABLE #strategy_ends;
 
-
 TRUNCATE TABLE #cohort_rows;
 DROP TABLE #cohort_rows;
 
